@@ -1,0 +1,70 @@
+body.light {
+	#basket {
+		.basket--card {
+			border: 2px solid black;
+		}
+	}
+}
+#basket {
+	padding: 40px 0;
+	h6 {
+		font-size: 2rem;
+	}
+	.basket--top {
+		margin-bottom: 20px;
+		text-align: end;
+		h2 {
+			font-size: 1.5rem;
+		}
+		h4 {
+			font-size: 1.5rem;
+		}
+	}
+	.basket {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		&--card {
+			width: 1000px;
+			margin-bottom: 20px;
+			height: 300px;
+			border-radius: 10px;
+			background-color: transparent;
+			border: 2px solid #fff;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			padding: 20px;
+			img {
+				width: 200px;
+				height: 200px;
+				object-fit: contain;
+			}
+			h2 {
+				font-size: 1.2rem;
+				font-weight: 700;
+			}
+			h3 {
+				font-size: 1.2rem;
+				font-weight: 900;
+			}
+			&__counter {
+				display: flex;
+				align-items: center;
+				gap: 30px;
+				button {
+					padding: 5px 10px;
+					border: none;
+					border-radius: 5px;
+					font-size: 1rem;
+					cursor: pointer;
+				}
+				p {
+					font-size: 1rem;
+					font-weight: 900;
+				}
+			}
+		}
+	}
+}
